@@ -2,6 +2,6 @@
 SET COMMIT=%USERNAME%
 git add .
 git commit -am "%COMMIT%"
-git pull
+git pull --allow-unrelated-histories
 git push
 pause
